@@ -18,19 +18,14 @@
 </head>
 
 <body>
-  <!-- Write your HTML code here, you can delete everything withing the body tags -->
+  
+  <h1 class="text-light mt-5">🃏 Generador de Cartas Aleatorias</h1>
 
-<!-- Contenedor pricipal carta,c ontiene 3 div-->
-  <div class="carta col-sm-8 col-md-6 col-lg-4 ">   
-    <div class="paloArriba" id="paloArriba"></div>                <!-- Icono superior izquierda -->
-    <div class="valor" id="valor"></div>                          <!-- Valor/Numero de carta -->
-    <div class="paloAbajo" id="paloAbajo"></div>                  <!-- Icono inferior izquierda  -->
-  </div>
+  <!-- Contenedor donde se agregan las cartas -->
+  <div id="cartas-container" class="container"></div>
 
-  <!--  Boton que vuelve a llamar a la funcion cambiarValor  -->
+  <!-- Botón para generar cartas -->
   <button onclick="cambiarValor()" type="button" id="boton" class="btn btn-dark mt-4">Generar Nueva Carta</button>
-
-
 
 
 
